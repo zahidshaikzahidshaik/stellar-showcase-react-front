@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Github, Linkedin } from 'lucide-react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -29,7 +29,7 @@ const Contact = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Get In Touch</h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Let's discuss your next project or just say hello
+            Let's discuss your next project or internship opportunities
           </p>
         </div>
 
@@ -39,16 +39,24 @@ const Contact = () => {
               <h3 className="text-2xl font-bold text-white mb-6">Contact Information</h3>
               <div className="space-y-4">
                 <div className="flex items-center">
-                  <Mail className="text-blue-400 mr-4" size={20} />
-                  <span className="text-gray-300">john.doe@example.com</span>
-                </div>
-                <div className="flex items-center">
                   <Phone className="text-blue-400 mr-4" size={20} />
-                  <span className="text-gray-300">+1 (555) 123-4567</span>
+                  <span className="text-gray-300">+91 7569548494</span>
                 </div>
                 <div className="flex items-center">
                   <MapPin className="text-blue-400 mr-4" size={20} />
-                  <span className="text-gray-300">San Francisco, CA</span>
+                  <span className="text-gray-300">Rayachoty, Kadapa, Andhra Pradesh, India</span>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h4 className="text-xl font-semibold text-white mb-4">Education</h4>
+              <div className="space-y-4">
+                <div className="bg-slate-700/30 p-4 rounded-lg">
+                  <h5 className="text-white font-semibold">Bachelor of Technology</h5>
+                  <p className="text-gray-400">Computer Systems Engineering</p>
+                  <p className="text-gray-500 text-sm">Jawaharlal Nehru Technological University, Anantapur</p>
+                  <p className="text-gray-500 text-sm">2021-2025</p>
                 </div>
               </div>
             </div>
@@ -56,17 +64,13 @@ const Contact = () => {
             <div>
               <h4 className="text-xl font-semibold text-white mb-4">Follow Me</h4>
               <div className="flex space-x-4">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
+                <a href="https://github.com/zahidshaikzahidshaik" target="_blank" rel="noopener noreferrer" 
                    className="bg-slate-700 p-3 rounded-full text-gray-400 hover:text-white hover:bg-slate-600 transition-all duration-200 hover-scale">
                   <Github size={20} />
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+                <a href="https://www.linkedin.com/in/shaikzahidhussain" target="_blank" rel="noopener noreferrer"
                    className="bg-slate-700 p-3 rounded-full text-gray-400 hover:text-white hover:bg-slate-600 transition-all duration-200 hover-scale">
                   <Linkedin size={20} />
-                </a>
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"
-                   className="bg-slate-700 p-3 rounded-full text-gray-400 hover:text-white hover:bg-slate-600 transition-all duration-200 hover-scale">
-                  <Twitter size={20} />
                 </a>
               </div>
             </div>
@@ -109,7 +113,7 @@ const Contact = () => {
                 required
                 rows={5}
                 className="w-full px-4 py-3 bg-slate-700 border border-slate-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-blue-400 transition-colors duration-200 resize-none"
-                placeholder="Tell me about your project..."
+                placeholder="Tell me about your project or opportunity..."
               />
             </div>
             <button
@@ -124,7 +128,7 @@ const Contact = () => {
 
         <div className="text-center mt-16 pt-8 border-t border-slate-700">
           <p className="text-gray-400">
-            © 2024 John Doe. Built with React & TypeScript. All rights reserved.
+            © 2024 Zahid Shaik. Built with React.js & TypeScript. All rights reserved.
           </p>
         </div>
       </div>

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
+import { ArrowDown, Github, Linkedin, Mail, Instagram, Facebook } from 'lucide-react';
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -15,23 +15,27 @@ const Hero = () => {
       <div className="container mx-auto text-center">
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-            Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">John Doe</span>
+            Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">Zahid Shaik</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            Full-Stack Developer & UI/UX Designer passionate about creating exceptional digital experiences
+            B.Tech Computer Science Engineering Graduate passionate about web development and innovative technology solutions
           </p>
           <div className="flex justify-center space-x-6 mb-12">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
+            <a href="https://github.com/zahidshaikzahidshaik" target="_blank" rel="noopener noreferrer" 
                className="text-gray-400 hover:text-white transition-colors duration-200 hover-scale">
               <Github size={28} />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+            <a href="https://www.linkedin.com/in/shaikzahidhussain" target="_blank" rel="noopener noreferrer"
                className="text-gray-400 hover:text-white transition-colors duration-200 hover-scale">
               <Linkedin size={28} />
             </a>
-            <a href="mailto:john@example.com"
+            <a href="https://www.instagram.com/zahid_shaik_56/?igsh=N2hhOHQ0dHE2YnFi#" target="_blank" rel="noopener noreferrer"
                className="text-gray-400 hover:text-white transition-colors duration-200 hover-scale">
-              <Mail size={28} />
+              <Instagram size={28} />
+            </a>
+            <a href="https://www.facebook.com/zahid.shaik.3114?rdid=QK713qYaWqW7Cz6J&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1L7vj1u2Md%2F#" target="_blank" rel="noopener noreferrer"
+               className="text-gray-400 hover:text-white transition-colors duration-200 hover-scale">
+              <Facebook size={28} />
             </a>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

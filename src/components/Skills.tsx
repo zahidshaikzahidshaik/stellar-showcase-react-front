@@ -3,14 +3,14 @@ import React from 'react';
 
 const Skills = () => {
   const skills = [
-    { name: 'React', level: 95, color: 'from-blue-500 to-cyan-500' },
-    { name: 'TypeScript', level: 90, color: 'from-blue-600 to-blue-400' },
-    { name: 'Node.js', level: 85, color: 'from-green-500 to-green-400' },
-    { name: 'Python', level: 80, color: 'from-yellow-500 to-yellow-400' },
-    { name: 'UI/UX Design', level: 88, color: 'from-purple-500 to-pink-500' },
-    { name: 'MongoDB', level: 82, color: 'from-green-600 to-green-500' },
-    { name: 'AWS', level: 75, color: 'from-orange-500 to-orange-400' },
-    { name: 'GraphQL', level: 78, color: 'from-pink-500 to-purple-500' },
+    { name: 'React.js', level: 90, color: 'from-blue-500 to-cyan-500' },
+    { name: 'Python', level: 95, color: 'from-yellow-500 to-yellow-400' },
+    { name: 'JavaScript', level: 85, color: 'from-yellow-600 to-orange-500' },
+    { name: 'HTML/CSS', level: 90, color: 'from-orange-500 to-red-500' },
+    { name: 'Apache Spark', level: 80, color: 'from-purple-500 to-pink-500' },
+    { name: 'PySpark', level: 85, color: 'from-green-600 to-green-500' },
+    { name: 'MySQL', level: 82, color: 'from-blue-600 to-blue-400' },
+    { name: 'API Integration', level: 88, color: 'from-pink-500 to-purple-500' },
   ];
 
   return (
@@ -19,7 +19,7 @@ const Skills = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Skills & Technologies</h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            A comprehensive toolkit for building modern web applications
+            A comprehensive toolkit for building modern web applications and data analysis
           </p>
         </div>
 
@@ -44,7 +44,7 @@ const Skills = () => {
         </div>
 
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-          {['Frontend', 'Backend', 'Database', 'DevOps'].map((category, index) => (
+          {['Frontend', 'Backend', 'Data Analysis', 'API Development'].map((category, index) => (
             <div key={category} className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover-scale">
               <div className="text-2xl font-bold text-blue-400 mb-2">{index + 1}</div>
               <div className="text-white font-semibold">{category}</div>
