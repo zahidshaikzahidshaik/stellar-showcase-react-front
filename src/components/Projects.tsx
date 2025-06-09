@@ -5,6 +5,14 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
+      title: 'Skill Compass Resume',
+      description: 'A modern, AI-powered resume analyzer designed to help job seekers enhance their resumes and gain insights into their skills. Features resume upload, AI-driven analysis, skill highlighting, improvement suggestions, and tailored recommendations.',
+      image: 'https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=600&h=400&fit=crop',
+      tech: ['React.js', 'TypeScript', 'Vite', 'Tailwind CSS', 'shadcn-ui'],
+      github: 'https://github.com/zahidshaikzahidshaik/skill-compass-resume.git',
+      live: '#'
+    },
+    {
       title: 'Weather Application using Python',
       description: 'A weather application built using Python that fetches and displays weather data from the OpenWeatherMap API. Features real-time weather updates, 5-day forecasts, weather alerts, and a user-friendly interface with accurate data.',
       image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop',
@@ -40,7 +48,7 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 max-w-7xl mx-auto">
           {projects.map((project, index) => (
             <div key={project.title} className="group bg-slate-800/50 backdrop-blur-sm rounded-xl overflow-hidden border border-slate-700 hover:border-slate-600 transition-all duration-300 hover-scale">
               <div className="relative overflow-hidden">
